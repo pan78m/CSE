@@ -16,3 +16,21 @@
 4:04:03 PM  [main] 	Deinitializing Modules
 4:04:03 PM  [main] 	Deinitializing Control Panel
 
+4:03:36 PM  [main] 	Initializing Control Panel
+4:03:36 PM  [main] 	Windows Version:  Enterprise  64-bit
+4:03:36 PM  [main] 	XAMPP Version: 8.2.0
+4:03:36 PM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+4:03:36 PM  [main] 	Running with Administrator rights - good!
+4:03:36 PM  [main] 	XAMPP Installation Directory: "c:\users\admin\desktop\cse\server\"
+4:03:36 PM  [main] 	Checking for prerequisites
+4:03:41 PM  [main] 	All prerequisites found
+4:03:41 PM  [main] 	Initializing Modules
+4:03:41 PM  [main] 	Starting Check-Timer
+4:03:41 PM  [main] 	Control Panel Ready
+4:05:32 PM  [Apache] 	Attempting to start Apache app...
+4:05:32 PM  [Apache] 	Status change detected: running
+4:05:34 PM  [mysql] 	Attempting to start MySQL app...
+4:05:34 PM  [mysql] 	Status change detected: running
+7:16:21 PM  [main] 	Deinitializing Modules
+7:16:21 PM  [main] 	Deinitializing Control Panel
+
