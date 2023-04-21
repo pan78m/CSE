@@ -1,6 +1,5 @@
 import tkinter as tk
 
-
 class Raj:
     def __init__(self, master):
         self.updated_value_entry = None

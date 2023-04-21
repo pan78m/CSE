@@ -14,10 +14,10 @@ class MainApplication(tk.Tk):
         self.array_btn.pack(side="left", padx=10, pady=10)
         self.link_list_btn = tk.Button(self, text="Link List", command=self.open_link_list_window)
         self.link_list_btn.pack(side="left", padx=10, pady=10)
-        self.array_btn = tk.Button(self, text="Tree", command=self.open_tree_window)
-        self.array_btn.pack(side="left", padx=10, pady=10)
-        self.link_list_btn = tk.Button(self, text="Sorts", command=self.open_Sorts_window)
-        self.link_list_btn.pack(side="left", padx=10, pady=10)
+        self.tree_btn = tk.Button(self, text="Tree", command=self.open_tree_window)
+        self.tree_btn.pack(side="left", padx=10, pady=10)
+        self.sorts_btn = tk.Button(self, text="Sorts", command=self.open_sorts_window)
+        self.sorts_btn.pack(side="left", padx=10, pady=10)
 
 
     def open_array_window(self):
@@ -33,6 +33,16 @@ class MainApplication(tk.Tk):
 
         # Open the Link List Window
         self.link_list_window = LinkListWindow()
+
+    def open_tree_window(self):
+        tree_window = tk.Toplevel(self)
+        tree_window.title("Tree Window")
+        # Add widgets and functionality to the tree window here
+
+    def open_sorts_window(self):
+        sorts_window = tk.Toplevel(self)
+        sorts_window.title("Sorts Window")
+        # Add widgets and functionality to the sorts window here
 
 
 class ArrayWindow(tk.Toplevel):
