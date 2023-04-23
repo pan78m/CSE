@@ -1,0 +1,3 @@
+This is one of the most common file format in text.
+On the other hand, I read this file using the php command.
+This is the new add line.
