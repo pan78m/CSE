@@ -224,3 +224,36 @@
 4:21:52 PM  [main] 	Deinitializing Modules
 4:21:52 PM  [main] 	Deinitializing Control Panel
 
+4:12:34 PM  [main] 	Initializing Control Panel
+4:12:34 PM  [main] 	Windows Version:  Enterprise  64-bit
+4:12:34 PM  [main] 	XAMPP Version: 8.2.0
+4:12:34 PM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+4:12:34 PM  [main] 	Running with Administrator rights - good!
+4:12:34 PM  [main] 	XAMPP Installation Directory: "c:\users\admin\desktop\cse\server\"
+4:12:34 PM  [main] 	Checking for prerequisites
+4:12:39 PM  [main] 	All prerequisites found
+4:12:39 PM  [main] 	Initializing Modules
+4:12:39 PM  [Apache] 	XAMPP Apache Service is already running on port 80
+4:12:39 PM  [Apache] 	XAMPP Apache Service is already running on port 443
+4:12:39 PM  [mysql] 	XAMPP MySQL Service is already running on port 3306
+4:12:39 PM  [filezilla] 	XAMPP FileZilla Service is already running on port 21
+4:12:39 PM  [filezilla] 	XAMPP FileZilla Service is already running on port 14147
+4:12:39 PM  [main] 	Starting Check-Timer
+4:12:39 PM  [main] 	Control Panel Ready
+4:12:43 PM  [filezilla] 	Attempting to stop FileZilla service...
+4:12:44 PM  [mercury] 	Attempting to start Mercury app...
+4:12:44 PM  [mercury] 	Status change detected: running
+4:12:45 PM  [mercury] 	Attempting to stop Mercury (PID: 11076)
+4:12:45 PM  [mercury] 	Status change detected: stopped
+4:12:47 PM  [mysql] 	Attempting to stop MySQL service...
+4:12:48 PM  [mysql] 	Status change detected: stopped
+4:12:50 PM  [filezilla] 	Attempting to stop FileZilla service...
+4:12:51 PM  [filezilla] 	Attempting to stop FileZilla service...
+4:12:52 PM  [filezilla] 	Attempting to stop FileZilla service...
+4:12:52 PM  [filezilla] 	Attempting to stop FileZilla service...
+4:13:07 PM  [filezilla] 	Attempting to stop FileZilla service...
+4:13:48 PM  [mysql] 	Attempting to start MySQL service...
+4:13:49 PM  [mysql] 	Status change detected: running
+5:09:19 PM  [main] 	Deinitializing Modules
+5:09:19 PM  [main] 	Deinitializing Control Panel
+

@@ -1,0 +1,4 @@
+This is the best file in the world!
+This is another content.
+This is another content3.
+This is the append file of the same file!
