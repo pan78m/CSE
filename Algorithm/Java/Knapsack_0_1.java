@@ -20,16 +20,19 @@ public class Knapsack_0_1 {
             System.out.println();
         }
         System.out.println(k[n][m]);
-        int i =n, j = m;
+        int i = n, j = m;
         System.out.println("Select the object: ");
-        while (i > 0 && j > 0) {
+        while (i >0 && j >= 0) {
             if (k[i][j] == k[i - 1][j]) {
                 System.out.println(i + " =0");
                 i--;
+
             } else {
+
                 System.out.println(i + " =1");
-                i--;
                 j = j - wt[i];
+                i--;
+
             }
 
         }
