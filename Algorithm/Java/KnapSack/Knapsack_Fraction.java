@@ -1,4 +1,4 @@
-package Java;
+package KnapSack;
 
 public class Knapsack_Fraction {
     public static void main(String[] args) {

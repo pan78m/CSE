@@ -1,4 +1,4 @@
-package Java;
+package QuickSort;
 
 //This problem start pivot is the first element
 public class Quick_Sort {

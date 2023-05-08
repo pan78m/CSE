@@ -1,5 +1,5 @@
 
-package Java;
+package QuickSort;
 //last element is the pivot element
 public class Quick_sort2 {
     public static void main(String[] args) {

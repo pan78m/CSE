@@ -1,4 +1,4 @@
-package Java;
+package QuickSort;
 
 //middle value is the pivot value
 public class Quick_Sort3 {

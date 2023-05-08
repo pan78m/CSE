@@ -1,3 +1,4 @@
+package KnapSack;
 import java.util.*;
 
 public class KnapsackSetMethod {
