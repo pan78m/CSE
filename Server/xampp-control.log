@@ -257,3 +257,22 @@
 5:09:19 PM  [main] 	Deinitializing Modules
 5:09:19 PM  [main] 	Deinitializing Control Panel
 
+10:03:55 PM  [main] 	Initializing Control Panel
+10:03:55 PM  [main] 	Windows Version:  Enterprise  64-bit
+10:03:55 PM  [main] 	XAMPP Version: 8.2.0
+10:03:55 PM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+10:03:55 PM  [main] 	Running with Administrator rights - good!
+10:03:55 PM  [main] 	XAMPP Installation Directory: "c:\users\admin\desktop\cse\server\"
+10:03:55 PM  [main] 	Checking for prerequisites
+10:03:57 PM  [main] 	All prerequisites found
+10:03:57 PM  [main] 	Initializing Modules
+10:03:57 PM  [Apache] 	XAMPP Apache Service is already running on port 80
+10:03:57 PM  [Apache] 	XAMPP Apache Service is already running on port 443
+10:03:57 PM  [mysql] 	XAMPP MySQL Service is already running on port 3306
+10:03:57 PM  [filezilla] 	XAMPP FileZilla Service is already running on port 21
+10:03:57 PM  [filezilla] 	XAMPP FileZilla Service is already running on port 14147
+10:03:57 PM  [main] 	Starting Check-Timer
+10:03:57 PM  [main] 	Control Panel Ready
+10:46:58 PM  [main] 	Deinitializing Modules
+10:46:58 PM  [main] 	Deinitializing Control Panel
+
