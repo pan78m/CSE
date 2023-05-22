@@ -1,3 +1,4 @@
+package LIS_LCS;
 public class CoinChange {
 
     public static int coinChange(int[] coins, int amount) {
