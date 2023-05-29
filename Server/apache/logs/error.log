@@ -1844,3 +1844,5 @@
 [Mon May 29 15:50:02.373833 2023] [core:notice] [pid 1212:tid 392] AH00094: Command line: 'C:\\Users\\Admin\\Desktop\\cse\\server\\apache\\bin\\httpd.exe -d C:/Users/Admin/Desktop/CSE/Server/apache'
 [Mon May 29 15:50:02.374860 2023] [mpm_winnt:notice] [pid 1212:tid 392] AH00418: Parent: Created child process 3528
 [Mon May 29 15:50:02.685001 2023] [ssl:warn] [pid 3528:tid 400] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 29 15:50:02.717912 2023] [ssl:warn] [pid 3528:tid 400] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 29 15:50:02.760798 2023] [mpm_winnt:notice] [pid 3528:tid 400] AH00354: Child: Starting 150 worker threads.
