@@ -12,9 +12,29 @@ public class LCS {
                 } else {
                     dp[i][j] = Math.max(dp[i][j - 1], dp[i - 1][j]);
                 }
+                System.out.print(dp[i][j]+" ");
+            }
+            System.out.println();
+        }
+        int i=m,j=n;
+        //Which element are selected 
+        StringBuilder lcsBuilder = new StringBuilder();
+        while (i > 0 && j > 0) {
+            if (s1.charAt(i - 1) == s2.charAt(j - 1)) {
+                lcsBuilder.insert(0, s1.charAt(i - 1)); // Append character to the LCS
+                i--;
+                j--;
+            } else if (dp[i][j - 1] > dp[i - 1][j]) {
+                j--;
+            } else {
+                i--;
             }
         }
+
+        System.out.println("Longest Common Subsequence: " + lcsBuilder.toString());
+
         return dp[m][n];
+       
     }
 
     public static void main(String[] args) {
