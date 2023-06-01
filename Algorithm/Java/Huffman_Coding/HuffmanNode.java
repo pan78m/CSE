@@ -89,7 +89,7 @@ class HuffmanCoding {
          * System.out.print("Enter the text to encode: ");
          * String text = scanner.nextLine();
          */
-        String text = "Hello, world!";
+        String text = "Hi";
         Map<Character, String> codeMap = encode(text);
         Map<Character, Integer> frequencyMap = buildFrequencyMap(text);
 

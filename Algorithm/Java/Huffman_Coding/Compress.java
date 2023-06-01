@@ -80,7 +80,7 @@ class HuCompress {
     }
 
     public static void main(String[] args) {
-        String text = "Hello, world!";
+        String text = "Hi";
         Map<Character, String> codeMap = encode(text);
         Map<Character, Integer> frequencyMap = buildFrequencyMap(text);
         System.out.println(text.length());
