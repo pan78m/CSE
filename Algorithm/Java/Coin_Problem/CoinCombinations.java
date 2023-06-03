@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class CoinCombinations {
     public static void main(String[] args) {
-        int[] coins = {1, 5, 10}; // List of available coins
+        int[] coins = {1,2, 5, 10}; // List of available coins
       
         System.out.println("Enter the coin value which combination you making: ");
         Scanner input=new Scanner (System.in);

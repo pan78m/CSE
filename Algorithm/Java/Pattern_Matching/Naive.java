@@ -1,3 +1,5 @@
+package Pattern_Matching;
+
 public class Naive {
     public static void main(String[] args) {
         String s1 = "this test is a test text";
@@ -16,13 +18,16 @@ public class Naive {
                     break;
             }
             if (j == m) {
-                System.out.println("Pattern found at index: " + i);
-                flag = 1;
+                flag++;
+                System.out.println("Pattern found at index[i:j] =["+i+":"+(j-1+i)+"]");
+
             }
 
         }
-        if(flag==0)
-        System.out.println("Pattern not found!!!");
+        if (flag == 0)
+            System.out.println("Pattern not found!!!");
+        else
+            System.out.println("How many times found : " + flag);
 
     }
 }
