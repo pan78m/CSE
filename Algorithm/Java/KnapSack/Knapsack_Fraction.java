@@ -9,11 +9,14 @@ public class Knapsack_Fraction {
 
         int p[] = { 10, 8, 15, 7, 6, 18, 3 };
         int wt[] = { 2, 3, 5, 7, 1, 4, 1 };
+        // int p[] = {  1, 2, 5, 6 };
+        // int wt[] = {  2, 3, 4, 5 };
+        int n=p.length;
      //Declear a where I store fractional value respect per kg
-        double frac[] = new double[7];
-        for (int i = 0; i < 7; i++) {
+        double frac[] = new double[n];
+        for (int i = 0; i < n; i++) {
             frac[i] = (double) p[i] / (double) wt[i];
-            System.out.print(frac[i]+" ");
+            System.out.print(frac[i]+" ,");
         }
         int currectW = 0;
 
