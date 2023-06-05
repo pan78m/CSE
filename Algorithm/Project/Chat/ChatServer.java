@@ -11,7 +11,6 @@ public class ChatServer extends JFrame {
     private JTextArea chatArea;
     private ServerSocket serverSocket;
     private Socket clientSocket;
-    private PrintWriter out;
     private BufferedReader in;
 
     public ChatServer() {
@@ -44,8 +43,7 @@ public class ChatServer extends JFrame {
             clientSocket = serverSocket.accept();
             chatArea.append("Connection established.\n");
 
-            // Create input and output streams for communication
-            out = new PrintWriter(clientSocket.getOutputStream(), true);
+            new PrintWriter(clientSocket.getOutputStream(), true);
             in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
 
             receiveMessages();

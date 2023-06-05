@@ -55,6 +55,7 @@ public class Work extends JFrame {
             clientSocket = serverSocket.accept();
             chatArea.append("Connection established.\n");
 
+            serverSocket.close();
             out = new PrintWriter(clientSocket.getOutputStream(), true);
             in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
 

@@ -267,9 +267,9 @@ public class ChatApplication extends JFrame {
             @Override
             public void run() {
                 try {
-                    ChatApplication chatApp = new ChatApplication();
+                     new ChatApplication();
                 } catch (IOException e) {
-                    // TODO Auto-generated catch block
+                   
                     e.printStackTrace();
                 }
 

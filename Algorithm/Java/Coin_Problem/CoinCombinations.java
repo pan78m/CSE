@@ -8,6 +8,7 @@ public class CoinCombinations {
         System.out.println("Enter the coin value which combination you making: ");
         Scanner input=new Scanner (System.in);
         int targetAmount =input.nextInt(); // The amount to make up
+        input.close();
 
         int combinations = calculateCoinCombinations(coins, targetAmount);
         System.out.println("Total number of combinations: " + combinations);

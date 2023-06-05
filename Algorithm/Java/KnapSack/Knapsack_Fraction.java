@@ -3,24 +3,27 @@ package KnapSack;
 public class Knapsack_Fraction {
     public static void main(String[] args) {
         double maxProfit = 0;
-        int maxWeight = 15;
-        //Input first time profit an array in P[] and
-        // input weight in an array wt[] 
+        int maxWeight = 20;
+        // int maxWeight = 15;
+        // Input first time profit an array in P[] and
+        // input weight in an array wt[]
 
-        int p[] = { 10, 8, 15, 7, 6, 18, 3 };
-        int wt[] = { 2, 3, 5, 7, 1, 4, 1 };
-        // int p[] = {  1, 2, 5, 6 };
-        // int wt[] = {  2, 3, 4, 5 };
-        int n=p.length;
-     //Declear a where I store fractional value respect per kg
+        // int p[] = { 10, 8, 15, 7, 6, 18, 3 };
+        // int wt[] = { 2, 3, 5, 7, 1, 4, 1 };
+        // int p[] = { 1, 2, 5, 6 };
+        // int wt[] = { 2, 3, 4, 5 };
+        int p[] = { 25, 24, 15 };
+        int wt[] = { 18, 15, 10 };
+        int n = p.length;
+        // Declear a where I store fractional value respect per kg
         double frac[] = new double[n];
         for (int i = 0; i < n; i++) {
             frac[i] = (double) p[i] / (double) wt[i];
-            System.out.print(frac[i]+" ,");
+            System.out.print(frac[i] + " ");
         }
         int currectW = 0;
 
-        // sort all the item/profit/ratio
+        // sort all the item/profit/ratio(using bubble sort)
         for (int i = 0; i < p.length; i++) {
             for (int j = i + 1; j < p.length; j++) {
                 if (frac[i] < frac[j]) {
@@ -54,7 +57,8 @@ public class Knapsack_Fraction {
             }
         }
         System.out.println(
-                "\nThe maximum value that can be put in a knapsack of capacity " + maxWeight + " is " + maxProfit);
+                "\nThe maximum value that can be put in a knapsack of capacity "
+                 + maxWeight + " is " + maxProfit);
 
     }
 }

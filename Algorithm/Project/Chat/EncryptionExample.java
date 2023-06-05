@@ -30,7 +30,7 @@
  
              System.out.print("Enter a message to encrypt: ");
              String message = scanner.nextLine();
- 
+             scanner.close();
              String encryptedMessage = encrypt(message);
              System.out.println("Encrypted message: " + encryptedMessage);
  

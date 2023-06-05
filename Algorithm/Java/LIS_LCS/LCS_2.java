@@ -1,6 +1,5 @@
 package LIS_LCS;
 
-import java.util.*;
 
 public class LCS_2 {
 

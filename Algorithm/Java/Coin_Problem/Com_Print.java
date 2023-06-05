@@ -12,7 +12,7 @@ public class Com_Print {
 
         List<List<Integer>> combinations = calculateCoinCombinations(coins, targetAmount);
         System.out.println("Total number of combinations: " + combinations.size());
-
+        input.close();
         System.out.println("Combinations:");
         for (List<Integer> combination : combinations) {
             for (int i = 0; i < combination.size(); i++) {
