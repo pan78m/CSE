@@ -11,6 +11,7 @@ public class LIS {
             for (int j = 0; j < i; j++) {
                 if (nums[i] > nums[j]) {
                     dp[i] = Math.max(dp[i], dp[j] + 1);
+                   
                 }
             }
         }
@@ -18,6 +19,7 @@ public class LIS {
         int maxLIS = 0;
         for (int i = 0; i < n; i++) {
             maxLIS = Math.max(maxLIS, dp[i]);
+           
         }
 
         return maxLIS;
@@ -26,6 +28,7 @@ public class LIS {
 
     public static void main(String[] args) {
         int[] nums = {9, 2, 5, 3, 7, 11, 8, 10, 13, 6};
+        
         System.out.println("Length of LIS is " + lis(nums));
         System.out.print("LIS is: ");
     }

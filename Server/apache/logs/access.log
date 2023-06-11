@@ -6901,3 +6901,4 @@
 ::1 - - [26/May/2023:17:17:06 +0600] "GET /dashboard/images/fastly-logo.png HTTP/1.1" 200 1770 "http://localhost/dashboard/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50"
 ::1 - - [26/May/2023:17:17:06 +0600] "GET /dashboard/javascripts/all.js HTTP/1.1" 200 188385 "http://localhost/dashboard/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50"
 ::1 - - [26/May/2023:17:17:06 +0600] "GET /dashboard/images/xampp-logo.svg HTTP/1.1" 200 5427 "http://localhost/dashboard/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50"
+127.0.0.1 - - [09/Jun/2023:21:55:56 +0600] "GET /undefined?appIdentifier=com.anvsoft.avc&versionNubmer=8.1.4&buildNumber=beta5&reqType=getconfig HTTP/1.1" 404 295 "-" "axios/1.4.0"
