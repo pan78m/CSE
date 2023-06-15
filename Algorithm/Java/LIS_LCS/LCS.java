@@ -1,7 +1,6 @@
 package LIS_LCS;
 
-import java.util.ArrayList;
-import java.util.List;
+
 
 public class LCS {
     public static int lcs(String s1, String s2) {

@@ -8488,3 +8488,458 @@ Version: '10.4.27-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribut
 2023-06-11 18:04:37 0 [Note] Added new Master_info '' to hash table
 2023-06-11 18:04:37 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe: ready for connections.
 Version: '10.4.27-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2023-06-11 23:00:31 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-06-11 23:00:31 0 [Note] Event Scheduler: Purging the queue. 0 events
+2023-06-11 23:00:31 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-06-11 23:00:31 0 [Note] InnoDB: Starting shutdown...
+2023-06-11 23:00:31 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Users\Admin\Desktop\CSE\Server\mysql\data\ib_buffer_pool
+2023-06-11 23:00:31 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2023-06-11 23:00:31 0 [Note] InnoDB: Buffer pool(s) dump completed at 230611 23:00:31
+2023-06-11 23:00:32 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-06-11 23:00:32 0 [Note] InnoDB: Shutdown completed; log sequence number 497417; transaction id 1458
+2023-06-11 23:00:32 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe: Shutdown complete
+
+2023-06-12 13:18:47 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-06-12 13:18:47 0 [Note] InnoDB: Uses event mutexes
+2023-06-12 13:18:47 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-06-12 13:18:48 0 [Note] InnoDB: Number of pools: 1
+2023-06-12 13:18:48 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-06-12 13:18:48 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-06-12 13:18:48 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-06-12 13:18:48 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-06-12 13:18:48 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-06-12 13:18:48 0 [Note] InnoDB: Setting file 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-06-12 13:18:48 0 [Note] InnoDB: File 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size is now 12 MB.
+2023-06-12 13:18:48 0 [Note] InnoDB: Waiting for purge to start
+2023-06-12 13:18:48 0 [Note] InnoDB: 10.4.27 started; log sequence number 497417; transaction id 1457
+2023-06-12 13:18:48 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Admin\Desktop\CSE\Server\mysql\data\ib_buffer_pool
+2023-06-12 13:18:48 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-06-12 13:18:48 0 [Note] InnoDB: Buffer pool(s) load completed at 230612 13:18:48
+2023-06-12 13:18:48 0 [Note] Server socket created on IP: '::'.
+2023-06-12 13:18:49 0 [Note] Reading of all Master_info entries succeeded
+2023-06-12 13:18:49 0 [Note] Added new Master_info '' to hash table
+2023-06-12 13:18:49 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.27-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2023-06-12 19:36:28 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-06-12 19:36:28 0 [Note] InnoDB: Uses event mutexes
+2023-06-12 19:36:28 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-06-12 19:36:28 0 [Note] InnoDB: Number of pools: 1
+2023-06-12 19:36:28 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-06-12 19:36:28 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-06-12 19:36:28 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-06-12 19:36:28 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=497417
+2023-06-12 19:36:30 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-06-12 19:36:30 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-06-12 19:36:30 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-06-12 19:36:30 0 [Note] InnoDB: Setting file 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-06-12 19:36:30 0 [Note] InnoDB: File 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size is now 12 MB.
+2023-06-12 19:36:30 0 [Note] InnoDB: Waiting for purge to start
+2023-06-12 19:36:30 0 [Note] InnoDB: 10.4.27 started; log sequence number 497426; transaction id 1457
+2023-06-12 19:36:30 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Admin\Desktop\CSE\Server\mysql\data\ib_buffer_pool
+2023-06-12 19:36:30 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-06-12 19:36:30 0 [Note] InnoDB: Buffer pool(s) load completed at 230612 19:36:30
+2023-06-12 19:36:30 0 [Note] Server socket created on IP: '::'.
+2023-06-12 19:36:30 0 [Note] Reading of all Master_info entries succeeded
+2023-06-12 19:36:30 0 [Note] Added new Master_info '' to hash table
+2023-06-12 19:36:30 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.27-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2023-06-12 23:25:05 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-06-12 23:25:05 0 [Note] Event Scheduler: Purging the queue. 0 events
+2023-06-12 23:25:05 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-06-12 23:25:05 0 [Note] InnoDB: Starting shutdown...
+2023-06-12 23:25:05 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Users\Admin\Desktop\CSE\Server\mysql\data\ib_buffer_pool
+2023-06-12 23:25:05 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2023-06-12 23:25:05 0 [Note] InnoDB: Buffer pool(s) dump completed at 230612 23:25:05
+2023-06-12 23:25:06 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-06-12 23:25:06 0 [Note] InnoDB: Shutdown completed; log sequence number 497444; transaction id 1458
+2023-06-12 23:25:06 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe: Shutdown complete
+
+2023-06-13 13:34:18 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-06-13 13:34:18 0 [Note] InnoDB: Uses event mutexes
+2023-06-13 13:34:18 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-06-13 13:34:18 0 [Note] InnoDB: Number of pools: 1
+2023-06-13 13:34:18 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-06-13 13:34:18 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-06-13 13:34:19 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-06-13 13:34:19 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-06-13 13:34:19 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-06-13 13:34:19 0 [Note] InnoDB: Setting file 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-06-13 13:34:19 0 [Note] InnoDB: File 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size is now 12 MB.
+2023-06-13 13:34:19 0 [Note] InnoDB: Waiting for purge to start
+2023-06-13 13:34:19 0 [Note] InnoDB: 10.4.27 started; log sequence number 497444; transaction id 1457
+2023-06-13 13:34:19 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Admin\Desktop\CSE\Server\mysql\data\ib_buffer_pool
+2023-06-13 13:34:19 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-06-13 13:34:19 0 [Note] InnoDB: Buffer pool(s) load completed at 230613 13:34:19
+2023-06-13 13:34:19 0 [Note] Server socket created on IP: '::'.
+2023-06-13 13:34:20 0 [Note] Reading of all Master_info entries succeeded
+2023-06-13 13:34:20 0 [Note] Added new Master_info '' to hash table
+2023-06-13 13:34:20 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.27-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2023-06-13 14:24:59 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-06-13 14:24:59 0 [Note] Event Scheduler: Purging the queue. 0 events
+2023-06-13 14:24:59 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-06-13 14:24:59 0 [Note] InnoDB: Starting shutdown...
+2023-06-13 14:24:59 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Users\Admin\Desktop\CSE\Server\mysql\data\ib_buffer_pool
+2023-06-13 14:24:59 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2023-06-13 14:24:59 0 [Note] InnoDB: Buffer pool(s) dump completed at 230613 14:24:59
+2023-06-13 14:25:00 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-06-13 14:25:00 0 [Note] InnoDB: Shutdown completed; log sequence number 497453; transaction id 1458
+2023-06-13 14:25:00 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe: Shutdown complete
+
+2023-06-13 15:30:03 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-06-13 15:30:03 0 [Note] InnoDB: Uses event mutexes
+2023-06-13 15:30:03 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-06-13 15:30:03 0 [Note] InnoDB: Number of pools: 1
+2023-06-13 15:30:03 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-06-13 15:30:03 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-06-13 15:30:03 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-06-13 15:30:04 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-06-13 15:30:04 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-06-13 15:30:04 0 [Note] InnoDB: Setting file 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-06-13 15:30:04 0 [Note] InnoDB: File 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size is now 12 MB.
+2023-06-13 15:30:04 0 [Note] InnoDB: Waiting for purge to start
+2023-06-13 15:30:04 0 [Note] InnoDB: 10.4.27 started; log sequence number 497453; transaction id 1457
+2023-06-13 15:30:04 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Admin\Desktop\CSE\Server\mysql\data\ib_buffer_pool
+2023-06-13 15:30:04 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-06-13 15:30:04 0 [Note] InnoDB: Buffer pool(s) load completed at 230613 15:30:04
+2023-06-13 15:30:04 0 [Note] Server socket created on IP: '::'.
+2023-06-13 15:30:04 0 [Note] Reading of all Master_info entries succeeded
+2023-06-13 15:30:04 0 [Note] Added new Master_info '' to hash table
+2023-06-13 15:30:04 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.27-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2023-06-13 16:28:48 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-06-13 16:28:48 0 [Note] Event Scheduler: Purging the queue. 0 events
+2023-06-13 16:28:48 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-06-13 16:28:49 0 [Note] InnoDB: Starting shutdown...
+2023-06-13 16:28:49 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Users\Admin\Desktop\CSE\Server\mysql\data\ib_buffer_pool
+2023-06-13 16:28:49 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2023-06-13 16:28:49 0 [Note] InnoDB: Buffer pool(s) dump completed at 230613 16:28:49
+2023-06-13 16:28:49 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-06-13 16:28:49 0 [Note] InnoDB: Shutdown completed; log sequence number 497462; transaction id 1458
+2023-06-13 16:28:49 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe: Shutdown complete
+
+2023-06-13 17:35:01 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-06-13 17:35:01 0 [Note] InnoDB: Uses event mutexes
+2023-06-13 17:35:01 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-06-13 17:35:01 0 [Note] InnoDB: Number of pools: 1
+2023-06-13 17:35:01 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-06-13 17:35:01 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-06-13 17:35:01 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-06-13 17:35:01 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-06-13 17:35:01 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-06-13 17:35:01 0 [Note] InnoDB: Setting file 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-06-13 17:35:01 0 [Note] InnoDB: File 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size is now 12 MB.
+2023-06-13 17:35:01 0 [Note] InnoDB: Waiting for purge to start
+2023-06-13 17:35:01 0 [Note] InnoDB: 10.4.27 started; log sequence number 497462; transaction id 1457
+2023-06-13 17:35:01 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Admin\Desktop\CSE\Server\mysql\data\ib_buffer_pool
+2023-06-13 17:35:01 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-06-13 17:35:01 0 [Note] InnoDB: Buffer pool(s) load completed at 230613 17:35:01
+2023-06-13 17:35:01 0 [Note] Server socket created on IP: '::'.
+2023-06-13 17:35:02 0 [Note] Reading of all Master_info entries succeeded
+2023-06-13 17:35:02 0 [Note] Added new Master_info '' to hash table
+2023-06-13 17:35:02 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.27-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2023-06-13 20:23:35 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-06-13 20:23:35 0 [Note] Event Scheduler: Purging the queue. 0 events
+2023-06-13 20:23:35 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-06-13 20:23:35 0 [Note] InnoDB: Starting shutdown...
+2023-06-13 20:23:35 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Users\Admin\Desktop\CSE\Server\mysql\data\ib_buffer_pool
+2023-06-13 20:23:35 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2023-06-13 20:23:35 0 [Note] InnoDB: Buffer pool(s) dump completed at 230613 20:23:35
+2023-06-13 20:23:35 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-06-13 20:23:35 0 [Note] InnoDB: Shutdown completed; log sequence number 497471; transaction id 1458
+2023-06-13 20:23:35 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe: Shutdown complete
+
+2023-06-14 11:49:23 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-06-14 11:49:23 0 [Note] InnoDB: Uses event mutexes
+2023-06-14 11:49:23 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-06-14 11:49:23 0 [Note] InnoDB: Number of pools: 1
+2023-06-14 11:49:23 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-06-14 11:49:23 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-06-14 11:49:23 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-06-14 11:49:28 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-06-14 11:49:28 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-06-14 11:49:28 0 [Note] InnoDB: Setting file 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-06-14 11:49:28 0 [Note] InnoDB: File 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size is now 12 MB.
+2023-06-14 11:49:28 0 [Note] InnoDB: Waiting for purge to start
+2023-06-14 11:49:28 0 [Note] InnoDB: 10.4.27 started; log sequence number 497471; transaction id 1457
+2023-06-14 11:49:28 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Admin\Desktop\CSE\Server\mysql\data\ib_buffer_pool
+2023-06-14 11:49:28 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-06-14 11:49:28 0 [Note] InnoDB: Buffer pool(s) load completed at 230614 11:49:28
+2023-06-14 11:49:28 0 [Note] Server socket created on IP: '::'.
+2023-06-14 11:49:30 0 [Note] Reading of all Master_info entries succeeded
+2023-06-14 11:49:30 0 [Note] Added new Master_info '' to hash table
+2023-06-14 11:49:30 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.27-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2023-06-14 11:59:06 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-06-14 11:59:06 0 [Note] InnoDB: Uses event mutexes
+2023-06-14 11:59:06 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-06-14 11:59:06 0 [Note] InnoDB: Number of pools: 1
+2023-06-14 11:59:06 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-06-14 11:59:06 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-06-14 11:59:06 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-06-14 11:59:06 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=497471
+2023-06-14 11:59:09 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-06-14 11:59:09 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-06-14 11:59:09 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-06-14 11:59:09 0 [Note] InnoDB: Setting file 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-06-14 11:59:09 0 [Note] InnoDB: File 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size is now 12 MB.
+2023-06-14 11:59:09 0 [Note] InnoDB: Waiting for purge to start
+2023-06-14 11:59:09 0 [Note] InnoDB: 10.4.27 started; log sequence number 497480; transaction id 1457
+2023-06-14 11:59:09 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Admin\Desktop\CSE\Server\mysql\data\ib_buffer_pool
+2023-06-14 11:59:09 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-06-14 11:59:09 0 [Note] InnoDB: Buffer pool(s) load completed at 230614 11:59:09
+2023-06-14 11:59:10 0 [Note] Server socket created on IP: '::'.
+2023-06-14 11:59:10 0 [Note] Reading of all Master_info entries succeeded
+2023-06-14 11:59:10 0 [Note] Added new Master_info '' to hash table
+2023-06-14 11:59:10 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.27-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2023-06-14 12:09:01 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-06-14 12:09:01 0 [Note] InnoDB: Uses event mutexes
+2023-06-14 12:09:01 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-06-14 12:09:01 0 [Note] InnoDB: Number of pools: 1
+2023-06-14 12:09:01 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-06-14 12:09:01 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-06-14 12:09:01 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-06-14 12:09:01 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=497489
+2023-06-14 12:09:02 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-06-14 12:09:02 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-06-14 12:09:02 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-06-14 12:09:02 0 [Note] InnoDB: Setting file 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-06-14 12:09:02 0 [Note] InnoDB: File 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size is now 12 MB.
+2023-06-14 12:09:02 0 [Note] InnoDB: Waiting for purge to start
+2023-06-14 12:09:02 0 [Note] InnoDB: 10.4.27 started; log sequence number 497498; transaction id 1457
+2023-06-14 12:09:02 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Admin\Desktop\CSE\Server\mysql\data\ib_buffer_pool
+2023-06-14 12:09:02 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-06-14 12:09:02 0 [Note] InnoDB: Buffer pool(s) load completed at 230614 12:09:02
+2023-06-14 12:09:02 0 [Note] Server socket created on IP: '::'.
+2023-06-14 12:09:02 0 [Note] Reading of all Master_info entries succeeded
+2023-06-14 12:09:02 0 [Note] Added new Master_info '' to hash table
+2023-06-14 12:09:02 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.27-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2023-06-14 13:18:05 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-06-14 13:18:05 0 [Note] Event Scheduler: Purging the queue. 0 events
+2023-06-14 13:18:05 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-06-14 13:18:06 0 [Note] InnoDB: Starting shutdown...
+2023-06-14 13:18:06 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Users\Admin\Desktop\CSE\Server\mysql\data\ib_buffer_pool
+2023-06-14 13:18:06 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2023-06-14 13:18:06 0 [Note] InnoDB: Buffer pool(s) dump completed at 230614 13:18:06
+2023-06-14 13:18:06 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-06-14 13:18:06 0 [Note] InnoDB: Shutdown completed; log sequence number 497516; transaction id 1458
+2023-06-14 13:18:06 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe: Shutdown complete
+
+2023-06-14 14:27:14 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-06-14 14:27:14 0 [Note] InnoDB: Uses event mutexes
+2023-06-14 14:27:14 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-06-14 14:27:14 0 [Note] InnoDB: Number of pools: 1
+2023-06-14 14:27:14 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-06-14 14:27:15 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-06-14 14:27:15 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-06-14 14:27:15 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-06-14 14:27:15 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-06-14 14:27:15 0 [Note] InnoDB: Setting file 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-06-14 14:27:15 0 [Note] InnoDB: File 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size is now 12 MB.
+2023-06-14 14:27:15 0 [Note] InnoDB: Waiting for purge to start
+2023-06-14 14:27:15 0 [Note] InnoDB: 10.4.27 started; log sequence number 497516; transaction id 1457
+2023-06-14 14:27:15 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Admin\Desktop\CSE\Server\mysql\data\ib_buffer_pool
+2023-06-14 14:27:15 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-06-14 14:27:15 0 [Note] InnoDB: Buffer pool(s) load completed at 230614 14:27:15
+2023-06-14 14:27:15 0 [Note] Server socket created on IP: '::'.
+2023-06-14 14:27:15 0 [Note] Reading of all Master_info entries succeeded
+2023-06-14 14:27:15 0 [Note] Added new Master_info '' to hash table
+2023-06-14 14:27:15 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.27-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2023-06-14 17:06:39 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-06-14 17:06:39 0 [Note] InnoDB: Uses event mutexes
+2023-06-14 17:06:39 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-06-14 17:06:40 0 [Note] InnoDB: Number of pools: 1
+2023-06-14 17:06:40 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-06-14 17:06:40 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-06-14 17:06:40 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-06-14 17:06:40 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=497516
+2023-06-14 17:06:40 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-06-14 17:06:40 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-06-14 17:06:40 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-06-14 17:06:40 0 [Note] InnoDB: Setting file 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-06-14 17:06:40 0 [Note] InnoDB: File 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size is now 12 MB.
+2023-06-14 17:06:40 0 [Note] InnoDB: Waiting for purge to start
+2023-06-14 17:06:40 0 [Note] InnoDB: 10.4.27 started; log sequence number 497525; transaction id 1457
+2023-06-14 17:06:40 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Admin\Desktop\CSE\Server\mysql\data\ib_buffer_pool
+2023-06-14 17:06:40 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-06-14 17:06:40 0 [Note] InnoDB: Buffer pool(s) load completed at 230614 17:06:40
+2023-06-14 17:06:40 0 [Note] Server socket created on IP: '::'.
+2023-06-14 17:06:40 0 [Note] Reading of all Master_info entries succeeded
+2023-06-14 17:06:40 0 [Note] Added new Master_info '' to hash table
+2023-06-14 17:06:40 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.27-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2023-06-14 20:38:39 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-06-14 20:38:39 0 [Note] Event Scheduler: Purging the queue. 0 events
+2023-06-14 20:38:39 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-06-14 20:38:39 0 [Note] InnoDB: Starting shutdown...
+2023-06-14 20:38:39 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Users\Admin\Desktop\CSE\Server\mysql\data\ib_buffer_pool
+2023-06-14 20:38:39 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2023-06-14 20:38:39 0 [Note] InnoDB: Buffer pool(s) dump completed at 230614 20:38:39
+2023-06-14 20:38:40 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-06-14 20:38:40 0 [Note] InnoDB: Shutdown completed; log sequence number 497543; transaction id 1458
+2023-06-14 20:38:40 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe: Shutdown complete
+
+2023-06-15 13:31:13 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-06-15 13:31:13 0 [Note] InnoDB: Uses event mutexes
+2023-06-15 13:31:13 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-06-15 13:31:13 0 [Note] InnoDB: Number of pools: 1
+2023-06-15 13:31:14 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-06-15 13:31:14 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-06-15 13:31:14 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-06-15 13:31:14 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-06-15 13:31:14 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-06-15 13:31:14 0 [Note] InnoDB: Setting file 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-06-15 13:31:14 0 [Note] InnoDB: File 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size is now 12 MB.
+2023-06-15 13:31:14 0 [Note] InnoDB: Waiting for purge to start
+2023-06-15 13:31:14 0 [Note] InnoDB: 10.4.27 started; log sequence number 497543; transaction id 1457
+2023-06-15 13:31:14 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Admin\Desktop\CSE\Server\mysql\data\ib_buffer_pool
+2023-06-15 13:31:14 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-06-15 13:31:14 0 [Note] InnoDB: Buffer pool(s) load completed at 230615 13:31:14
+2023-06-15 13:31:14 0 [Note] Server socket created on IP: '::'.
+2023-06-15 13:31:15 0 [Note] Reading of all Master_info entries succeeded
+2023-06-15 13:31:15 0 [Note] Added new Master_info '' to hash table
+2023-06-15 13:31:15 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.27-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2023-06-15 13:54:56 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-06-15 13:54:56 0 [Note] Event Scheduler: Purging the queue. 0 events
+2023-06-15 13:54:56 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-06-15 13:54:56 0 [Note] InnoDB: Starting shutdown...
+2023-06-15 13:54:56 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Users\Admin\Desktop\CSE\Server\mysql\data\ib_buffer_pool
+2023-06-15 13:54:56 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2023-06-15 13:54:56 0 [Note] InnoDB: Buffer pool(s) dump completed at 230615 13:54:56
+2023-06-15 13:54:57 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-06-15 13:54:57 0 [Note] InnoDB: Shutdown completed; log sequence number 497552; transaction id 1458
+2023-06-15 13:54:57 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe: Shutdown complete
+
+2023-06-15 14:27:13 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-06-15 14:27:13 0 [Note] InnoDB: Uses event mutexes
+2023-06-15 14:27:13 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-06-15 14:27:13 0 [Note] InnoDB: Number of pools: 1
+2023-06-15 14:27:13 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-06-15 14:27:13 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-06-15 14:27:13 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-06-15 14:27:14 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-06-15 14:27:14 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-06-15 14:27:14 0 [Note] InnoDB: Setting file 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-06-15 14:27:14 0 [Note] InnoDB: File 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size is now 12 MB.
+2023-06-15 14:27:14 0 [Note] InnoDB: Waiting for purge to start
+2023-06-15 14:27:14 0 [Note] InnoDB: 10.4.27 started; log sequence number 497552; transaction id 1457
+2023-06-15 14:27:14 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Admin\Desktop\CSE\Server\mysql\data\ib_buffer_pool
+2023-06-15 14:27:14 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-06-15 14:27:14 0 [Note] InnoDB: Buffer pool(s) load completed at 230615 14:27:14
+2023-06-15 14:27:14 0 [Note] Server socket created on IP: '::'.
+2023-06-15 14:27:14 0 [Note] Reading of all Master_info entries succeeded
+2023-06-15 14:27:14 0 [Note] Added new Master_info '' to hash table
+2023-06-15 14:27:14 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.27-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2023-06-15 14:40:28 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-06-15 14:40:28 0 [Note] Event Scheduler: Purging the queue. 0 events
+2023-06-15 14:40:28 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-06-15 14:40:28 0 [Note] InnoDB: Starting shutdown...
+2023-06-15 14:40:28 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Users\Admin\Desktop\CSE\Server\mysql\data\ib_buffer_pool
+2023-06-15 14:40:28 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2023-06-15 14:40:28 0 [Note] InnoDB: Buffer pool(s) dump completed at 230615 14:40:28
+2023-06-15 14:40:29 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-06-15 14:40:29 0 [Note] InnoDB: Shutdown completed; log sequence number 497561; transaction id 1458
+2023-06-15 14:40:29 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe: Shutdown complete
+
+2023-06-15 15:35:56 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-06-15 15:35:56 0 [Note] InnoDB: Uses event mutexes
+2023-06-15 15:35:56 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-06-15 15:35:56 0 [Note] InnoDB: Number of pools: 1
+2023-06-15 15:35:56 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-06-15 15:35:56 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-06-15 15:35:56 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-06-15 15:35:57 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-06-15 15:35:57 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-06-15 15:35:57 0 [Note] InnoDB: Setting file 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-06-15 15:35:57 0 [Note] InnoDB: File 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size is now 12 MB.
+2023-06-15 15:35:57 0 [Note] InnoDB: Waiting for purge to start
+2023-06-15 15:35:57 0 [Note] InnoDB: 10.4.27 started; log sequence number 497561; transaction id 1457
+2023-06-15 15:35:57 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Admin\Desktop\CSE\Server\mysql\data\ib_buffer_pool
+2023-06-15 15:35:57 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-06-15 15:35:57 0 [Note] InnoDB: Buffer pool(s) load completed at 230615 15:35:57
+2023-06-15 15:35:57 0 [Note] Server socket created on IP: '::'.
+2023-06-15 15:35:57 0 [Note] Reading of all Master_info entries succeeded
+2023-06-15 15:35:57 0 [Note] Added new Master_info '' to hash table
+2023-06-15 15:35:57 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.27-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2023-06-15 15:49:42 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-06-15 15:49:42 0 [Note] Event Scheduler: Purging the queue. 0 events
+2023-06-15 15:49:42 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-06-15 15:49:42 0 [Note] InnoDB: Starting shutdown...
+2023-06-15 15:49:42 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Users\Admin\Desktop\CSE\Server\mysql\data\ib_buffer_pool
+2023-06-15 15:49:42 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2023-06-15 15:49:42 0 [Note] InnoDB: Buffer pool(s) dump completed at 230615 15:49:42
+2023-06-15 15:49:43 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-06-15 15:49:43 0 [Note] InnoDB: Shutdown completed; log sequence number 497570; transaction id 1458
+2023-06-15 15:49:43 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe: Shutdown complete
+
+2023-06-15 17:21:46 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-06-15 17:21:46 0 [Note] InnoDB: Uses event mutexes
+2023-06-15 17:21:46 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-06-15 17:21:46 0 [Note] InnoDB: Number of pools: 1
+2023-06-15 17:21:46 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-06-15 17:21:46 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-06-15 17:21:46 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-06-15 17:21:47 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-06-15 17:21:47 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-06-15 17:21:47 0 [Note] InnoDB: Setting file 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-06-15 17:21:47 0 [Note] InnoDB: File 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size is now 12 MB.
+2023-06-15 17:21:47 0 [Note] InnoDB: Waiting for purge to start
+2023-06-15 17:21:47 0 [Note] InnoDB: 10.4.27 started; log sequence number 497570; transaction id 1457
+2023-06-15 17:21:47 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Admin\Desktop\CSE\Server\mysql\data\ib_buffer_pool
+2023-06-15 17:21:47 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-06-15 17:21:47 0 [Note] InnoDB: Buffer pool(s) load completed at 230615 17:21:47
+2023-06-15 17:21:47 0 [Note] Server socket created on IP: '::'.
+2023-06-15 17:21:47 0 [Note] Reading of all Master_info entries succeeded
+2023-06-15 17:21:47 0 [Note] Added new Master_info '' to hash table
+2023-06-15 17:21:47 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.27-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2023-06-15 20:12:33 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-06-15 20:12:33 0 [Note] Event Scheduler: Purging the queue. 0 events
+2023-06-15 20:12:33 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-06-15 20:12:33 0 [Note] InnoDB: Starting shutdown...
+2023-06-15 20:12:33 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Users\Admin\Desktop\CSE\Server\mysql\data\ib_buffer_pool
+2023-06-15 20:12:33 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2023-06-15 20:12:33 0 [Note] InnoDB: Buffer pool(s) dump completed at 230615 20:12:33
+2023-06-15 20:12:34 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-06-15 20:12:34 0 [Note] InnoDB: Shutdown completed; log sequence number 497579; transaction id 1458
+2023-06-15 20:12:34 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe: Shutdown complete
+
+2023-06-15 21:22:34 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-06-15 21:22:34 0 [Note] InnoDB: Uses event mutexes
+2023-06-15 21:22:34 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-06-15 21:22:34 0 [Note] InnoDB: Number of pools: 1
+2023-06-15 21:22:34 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-06-15 21:22:34 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-06-15 21:22:34 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-06-15 21:22:36 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-06-15 21:22:36 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-06-15 21:22:36 0 [Note] InnoDB: Setting file 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-06-15 21:22:36 0 [Note] InnoDB: File 'C:\Users\Admin\Desktop\CSE\Server\mysql\data\ibtmp1' size is now 12 MB.
+2023-06-15 21:22:36 0 [Note] InnoDB: Waiting for purge to start
+2023-06-15 21:22:36 0 [Note] InnoDB: 10.4.27 started; log sequence number 497579; transaction id 1457
+2023-06-15 21:22:36 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\Admin\Desktop\CSE\Server\mysql\data\ib_buffer_pool
+2023-06-15 21:22:36 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-06-15 21:22:36 0 [Note] InnoDB: Buffer pool(s) load completed at 230615 21:22:36
+2023-06-15 21:22:37 0 [Note] Server socket created on IP: '::'.
+2023-06-15 21:22:38 0 [Note] Reading of all Master_info entries succeeded
+2023-06-15 21:22:38 0 [Note] Added new Master_info '' to hash table
+2023-06-15 21:22:38 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.27-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2023-06-15 22:24:04 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-06-15 22:24:04 0 [Note] Event Scheduler: Purging the queue. 0 events
+2023-06-15 22:24:04 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-06-15 22:24:04 0 [Note] InnoDB: Starting shutdown...
+2023-06-15 22:24:04 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Users\Admin\Desktop\CSE\Server\mysql\data\ib_buffer_pool
+2023-06-15 22:24:04 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2023-06-15 22:24:04 0 [Note] InnoDB: Buffer pool(s) dump completed at 230615 22:24:04
+2023-06-15 22:24:05 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-06-15 22:24:05 0 [Note] InnoDB: Shutdown completed; log sequence number 497588; transaction id 1458
+2023-06-15 22:24:05 0 [Note] C:\Users\Admin\Desktop\cse\server\mysql\bin\mysqld.exe: Shutdown complete
+

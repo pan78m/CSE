@@ -4,12 +4,12 @@ public class Knapsack_0_1 {
     public static void main(String[] args) {
         // int p[] = {  1, 2, 3 };
         // int wt[] = { 4, 5,1 };
-        // int p[] = { 0, 1, 2, 5, 6 };
-        // int wt[] = { 0, 2, 3, 4, 5 };
-        int p[] = { 0, 1, 1 };
-        int wt[] = { 0, 2, 1 };
-        int m = 3, n = 2, w=0, ob;
-        // int m = 8, n = 4, w=0, ob;
+        int p[] = { 0, 1, 2, 5, 6 };
+        int wt[] = { 0, 2, 3, 4, 5 };
+        // int p[] = { 0, 1, 1 };
+        // int wt[] = { 0, 2, 1 };
+        // int m = 3, n = 2, w=0, ob;
+        int m = 8, n = 4, w=0, ob;
         int k[][] = new  int[5][9];
         for (ob = 0; ob <= n; ob++) {
             for (w = 0; w <= m; w++) {
