@@ -29,7 +29,7 @@ public class kal {
         int cost = 0;
         Vector<Vector<Integer>> edges = new Vector<Vector<Integer>>();
         Scanner input = new Scanner(System.in);
-        int vertex = input.nextInt();
+       // int vertex = input.nextInt();
         int e = input.nextInt();
         for (int i = 0; i <= N; i++) {
             p.add(i);
@@ -45,6 +45,7 @@ public class kal {
             ed.add(v);
             edges.add(ed);
         }
+        input.close();
         Collections.sort(edges, new Comparator<Vector<Integer>>() {
             @Override
             public int compare(Vector<Integer> a, Vector<Integer> b) {

@@ -1,5 +1,5 @@
 package Array;
-import java.io.*;
+
 import java.util.*;
 
 class Solution{
@@ -25,7 +25,11 @@ public class T_Arr_Same {
         long A[]={1,0,2,3};
         long B[]={2,3,0,1};
         int N=4;
-
+       if(Solution.check(A, B, N)){
+        System.out.println("Equal");
+       }else{
+        System.out.println("Not Equal");
+       }
     }
 
     

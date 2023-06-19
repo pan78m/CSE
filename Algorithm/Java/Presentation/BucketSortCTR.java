@@ -1,10 +1,8 @@
 package Presentation;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
-
 public class BucketSortCTR {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -19,7 +17,7 @@ public class BucketSortCTR {
             System.out.print("Enter CTR for impression " + (i + 1) + ": ");
             ctrValues[i] = scanner.nextDouble();
         }
-
+        scanner.close();
         // Perform bucket sort
         List<List<Double>> buckets = bucketSort(ctrValues);
 

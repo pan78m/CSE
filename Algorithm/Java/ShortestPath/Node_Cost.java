@@ -28,7 +28,7 @@ class Node_Cost {
             adj.get(u).add(new Pair(v, w));
             adj.get(v).add(new Pair(u, w));
         }
-
+         scanner.close();
         int[] dist = new int[n];
         boolean[] visited = new boolean[n];
         for (int i = 0; i < n; i++) {

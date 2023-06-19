@@ -45,6 +45,7 @@ public class Deletion {
         Scanner input = new Scanner(System.in);
         String s1 = input.nextLine();
         String s2 = input.nextLine();
+        input.close();
         System.out.println("Length of LCS is " + lcs(s1, s2));
     }
 }
